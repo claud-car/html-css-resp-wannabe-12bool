@@ -57,7 +57,7 @@ hr{
 
 }
 
-#lezioni .col-12{
+#lezioni .col-12-xs{
   padding: 15px;
   margin-bottom: 15px;
 }
@@ -70,7 +70,7 @@ hr{
 
 }
 
-#steps .col-12{
+#steps .col-12-xs{
   padding: 15px;
   margin-bottom: 15px;
 }
@@ -87,12 +87,16 @@ hr{
   padding: 30px;
 }
 
-#why .col-12{
+#why .col-12-xs{
   padding: 15px;
   margin-bottom: 15px;
 }
 
-@media all and (min-width:421px) and (max-width :768px){
+@media all and (min-width:421px) and (max-width :991px){
+  .col-6-md{
+    width: 50%;
+  }
+
 
 
 

@@ -7,51 +7,51 @@
   float: left;
 }
 
-.col-1{
+.col-1-xs{
   width: calc(100%/12 * 1);
 }
 
-.col-2{
+.col-2-xs{
   width: calc(100%/12 * 2);
 }
 
-.col-3{
+.col-3-xs{
   width: 25%;
 }
 
-.col-4{
+.col-4-xs{
   width: calc(100%/12 * 4);
 }
 
-.col-5{
+.col-5-xs{
   width: calc(100%/12 * 5);
 }
 
-.col-6{
+.col-6-xs{
   width: 50%;
 }
 
-.col-7{
+.col-7-xs{
   width: calc(100%/12 * 7);
 }
 
-.col-8{
+.col-8-xs{
   width: calc(100%/12 * 8);
 }
 
-.col-9{
+.col-9-xs{
   width: 75%;
 }
 
-.col-10{
+.col-10-xs{
   width: calc(100%/12 * 10);
 }
 
-.col-11{
+.col-11-xs{
   width: calc(100%/12 * 11);
 }
 
-.col-12{
+.col-12-xs{
   width: 100%;
 }
 
@@ -125,9 +125,9 @@
   width: calc(100%/12 * 5);
 }
 
-.col-6-md{
+/* .col-6-md{
   width: 50%;
-}
+} */
 
 .col-7-md{
   width: calc(100%/12 * 7);
@@ -150,5 +150,55 @@
 }
 
 .col-12-md{
+  width: 100%;
+}
+
+/* LD-DIM */
+
+.col-1-ld{
+  width: calc(100%/12 * 1);
+}
+
+.col-2-ld{
+  width: calc(100%/12 * 2);
+}
+
+.col-3-ld{
+  width: 25%;
+}
+
+.col-4-ld{
+  width: calc(100%/12 * 4);
+}
+
+.col-5-ld{
+  width: calc(100%/12 * 5);
+}
+
+.col-6-ld{
+  width: 50%;
+}
+
+.col-7-ld{
+  width: calc(100%/12 * 7);
+}
+
+.col-8-ld{
+  width: calc(100%/12 * 8);
+}
+
+.col-9-ld{
+  width: 75%;
+}
+
+.col-10-ld{
+  width: calc(100%/12 * 10);
+}
+
+.col-11-ld{
+  width: calc(100%/12 * 11);
+}
+
+.col-12-ld{
   width: 100%;
 }
