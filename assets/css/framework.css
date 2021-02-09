@@ -1,3 +1,8 @@
+/* UTILITY */
+/* .col-d-none{
+  display: none;
+} */
+
 [class^="col-"]{
   float: left;
 }
@@ -94,6 +99,56 @@
   margin-left: calc(100%/12 * 11);
 }
 
-.col-12-offsetmargin-left:
+.col-12-offsetmargin-left{
   margin-left: 100%;
+}
+
+/* MD_DIM */
+
+.col-1-md{
+  width: calc(100%/12 * 1);
+}
+
+.col-2-md{
+  width: calc(100%/12 * 2);
+}
+
+.col-3-md{
+  width: 25%;
+}
+
+.col-4-md{
+  width: calc(100%/12 * 4);
+}
+
+.col-5-md{
+  width: calc(100%/12 * 5);
+}
+
+.col-6-md{
+  width: 50%;
+}
+
+.col-7-md{
+  width: calc(100%/12 * 7);
+}
+
+.col-8-md{
+  width: calc(100%/12 * 8);
+}
+
+.col-9-md{
+  width: 75%;
+}
+
+.col-10-md{
+  width: calc(100%/12 * 10);
+}
+
+.col-11-md{
+  width: calc(100%/12 * 11);
+}
+
+.col-12-md{
+  width: 100%;
 }

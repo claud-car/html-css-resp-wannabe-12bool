@@ -5,10 +5,39 @@
 }
 
 .row {
-  width: 420px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+img {
+  height: 100px;
+  margin: 10px 0;
+}
+
+h1{
+  margin: 15px 0;
+  font-size: 2.3em;
+}
+
+.color-title{
+  background-color: #f4b669;
+}
+
+span{
+  font-size: 1.1em;
+}
+
+hr{
+  margin: 10px 0;
 }
 
 /* BLOCCO LEZIONI */
@@ -38,6 +67,7 @@
 
 #steps {
   text-align: center;
+
 }
 
 #steps .col-12{
@@ -48,13 +78,13 @@
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #F2F2CD;
 }
 
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 #why .col-12{
@@ -62,28 +92,9 @@
   margin-bottom: 15px;
 }
 
+@media all and (min-width:421px) and (max-width :768px){
 
-/* COMMON */
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
-img {
-  height: 100px;
-  margin: 10px 0;
-}
 
-h1{
-  margin: 15px 0;
-  font-size: 2.3em;
-}
 
-.color-title{
-  background-color: #f4b669;
-}
-
-span{
-  font-size: 1.1em;
 }
